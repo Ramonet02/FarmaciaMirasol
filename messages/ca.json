@@ -1,0 +1,155 @@
+{
+  "header": {
+    "title": "Farmàcia Mirasol",
+    "subtitle": "Sant Cugat del Vallès",
+    "nav": {
+      "services": "Serveis",
+      "about": "Nosaltres",
+      "products": "Productes",
+      "contact": "Contacte"
+    }
+  },
+  "hero": {
+    "badge": "Benvinguts",
+    "welcome": "Benvinguts a",
+    "pharmacyName": "Farmàcia Mirasol",
+    "tagline": "El teu lloc de salut",
+    "cta": "Fes el teu encarrec",
+    "secondary": "Coneix més"
+  },
+  "services": {
+    "title": "Els Nostres Serveis",
+    "subtitle": "Compromesos amb la teva salut i benestar",
+    "items": {
+      "medicines": {
+        "title": "Medicaments",
+        "description": "Ampli catàleg de medicaments amb i sense recepta"
+      },
+      "health": {
+        "title": "Salut",
+        "description": "Assessorament personalitzat en salut i benestar"
+      },
+      "consultations": {
+        "title": "Consultes",
+        "description": "Servei de consulta farmacèutica professional"
+      },
+      "products": {
+        "title": "Productes",
+        "description": "Productes de parafarmàcia i cura personal"
+      },
+      "emergency": {
+        "title": "Urgències",
+        "description": "Servei de guàrdia 24/7 disponible"
+      },
+      "care": {
+        "title": "Atenció",
+        "description": "Atenció personalitzada per a tota la família"
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre Farmàcia Mirasol",
+    "description1": "Som una farmàcia de confiança amb més de 25 anys d'experiència en la cura de la salut de la nostra comunitat. El nostre compromís és oferir productes de qualitat i un servei personalitzat.",
+    "description2": "Comptem amb un equip de professionals altament qualificats que t'assessoraran en tot moment per garantir el teu benestar i el de la teva família.",
+    "stats": {
+      "experience": "Anys d'experiència",
+      "clients": "Clients satisfets",
+      "availability": "Disponibilitat",
+      "locations": "Ubicacions"
+    },
+    "mission": {
+      "title": "La Nostra Missió",
+      "description": "Proporcionar serveis de salut d'excel·lència, combinant professionalitat, proximitat i compromís amb el benestar de cada persona que confia en nosaltres."
+    }
+  },
+  "products": {
+    "badge": "Productes Destacats",
+    "title": "Ampli Catàleg",
+    "subtitle": "Troba tot el que necessites per a la teva salut i benestar",
+    "items": {
+      "vitamins": {
+        "name": "Vitamines i Suplements",
+        "description": "Reforça el teu sistema immunològic",
+        "category": "Nutrició"
+      },
+      "skincare": {
+        "name": "Cura de la Pell",
+        "description": "Productes dermatològics premium",
+        "category": "Bellesa"
+      },
+      "medicines": {
+        "name": "Medicaments",
+        "description": "Amb i sense recepta mèdica",
+        "category": "Salut"
+      },
+      "hygiene": {
+        "name": "Higiene Personal",
+        "description": "Tot per a la teva cura diària",
+        "category": "Cura"
+      },
+      "baby": {
+        "name": "Nadó i Mama",
+        "description": "Productes especialitzats",
+        "category": "Família"
+      },
+      "orthopedics": {
+        "name": "Ortopèdia",
+        "description": "Dispositius de suport i mobilitat",
+        "category": "Benestar"
+      }
+    },
+    "button": "Veure més"
+  },
+  "contact": {
+    "title": "Contacta'ns",
+    "subtitle": "Som aquí per ajudar-te en tot el que necessitis",
+    "info": {
+      "address": {
+        "title": "Adreça",
+        "content": "Passeig del Baixador, 78, 08195 Mira-sol, Barcelona"
+      },
+      "phone": {
+        "title": "Telèfon",
+        "content": "+34 123 456 789"
+      },
+      "email": {
+        "title": "Email",
+        "content": "info@farmaciamirasol.com"
+      },
+      "schedule": {
+        "title": "Horari",
+        "content": "Dl-Dv: 9:00-21:00"
+      }
+    },
+    "map": {
+      "title": "Mapa interactiu",
+      "placeholder": "Integra Google Maps aquí"
+    }
+  },
+  "schedule": {
+    "title": "Horari",
+    "weekdays": "Dilluns a Divendres",
+    "weekdaysTime": "8:30h a 20:30h",
+    "saturday": "Dissabtes",
+    "saturdayTime": "9:00h a 14:00h",
+    "sunday": "Diumenges",
+    "sundayTime": "Tancat"
+  },
+  "whatsapp": {
+    "title": "Fes el teu encàrrec!",
+    "subtitle": "Fes el teu encarrec des del mòbil",
+    "description": "Clica aquí i envia'ns un missatge",
+    "simple": "Així de senzill!",
+    "button": "Enviar missatge",
+    "notice": {
+      "title": "Avís legal sobre la utilització de WhatsApp",
+      "content": "Des de la Farmàcia Mira-sol et demanem que NO ens enviïs informació sensible sobre la teva salut ni tampoc documentació privada, com receptes i/o altres documents sanitaris personals. En tot cas, per la nostra banda, et podem confirmar que el dispositiu mòbil és només per a aquesta funcionalitat i es troba en una zona privada. El dispositiu es troba configurat amb totes les opcions de seguretat disponibles i de forma periòdica s'eliminen tots els missatges rebuts i enviats. En cap moment s'emmagatzema cap document i/o missatge."
+    }
+  },
+  "footer": {
+    "rights": "Tots els drets reservats",
+    "address": "Carrer Mirasol, 12",
+    "city": "08172 Sant Cugat del Vallès",
+    "phone": "Tel: 93 674 12 34"
+  }
+}

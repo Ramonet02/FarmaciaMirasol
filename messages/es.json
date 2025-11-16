@@ -1,0 +1,155 @@
+{
+  "header": {
+    "title": "Farmacia Mirasol",
+    "subtitle": "Sant Cugat del Vallès",
+    "nav": {
+      "services": "Servicios",
+      "about": "Nosotros",
+      "products": "Productos",
+      "contact": "Contacto"
+    }
+  },
+  "hero": {
+    "badge": "Bienvenidos",
+    "welcome": "Bienvenidos a",
+    "pharmacyName": "Farmacia Mirasol",
+    "tagline": "Tu lugar de salud",
+    "cta": "Haz tu encargo",
+    "secondary": "Conoce más"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Comprometidos con tu salud y bienestar",
+    "items": {
+      "medicines": {
+        "title": "Medicamentos",
+        "description": "Amplio catálogo de medicamentos con y sin receta"
+      },
+      "health": {
+        "title": "Salud",
+        "description": "Asesoramiento personalizado en salud y bienestar"
+      },
+      "consultations": {
+        "title": "Consultas",
+        "description": "Servicio de consulta farmacéutica profesional"
+      },
+      "products": {
+        "title": "Productos",
+        "description": "Productos de parafarmacia y cuidado personal"
+      },
+      "emergency": {
+        "title": "Urgencias",
+        "description": "Servicio de guardia 24/7 disponible"
+      },
+      "care": {
+        "title": "Atención",
+        "description": "Atención personalizada para toda la familia"
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre Farmacia Mirasol",
+    "description1": "Somos una farmacia de confianza con más de 25 años de experiencia en el cuidado de la salud de nuestra comunidad. Nuestro compromiso es ofrecer productos de calidad y un servicio personalizado.",
+    "description2": "Contamos con un equipo de profesionales altamente cualificados que te asesorarán en todo momento para garantizar tu bienestar y el de tu familia.",
+    "stats": {
+      "experience": "Años de experiencia",
+      "clients": "Clientes satisfechos",
+      "availability": "Disponibilidad",
+      "locations": "Ubicaciones"
+    },
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Proporcionar servicios de salud de excelencia, combinando profesionalidad, cercanía y compromiso con el bienestar de cada persona que confía en nosotros."
+    }
+  },
+  "products": {
+    "badge": "Productos Destacados",
+    "title": "Amplio Catálogo",
+    "subtitle": "Encuentra todo lo que necesitas para tu salud y bienestar",
+    "items": {
+      "vitamins": {
+        "name": "Vitaminas y Suplementos",
+        "description": "Refuerza tu sistema inmunológico",
+        "category": "Nutrición"
+      },
+      "skincare": {
+        "name": "Cuidado de la Piel",
+        "description": "Productos dermatológicos premium",
+        "category": "Belleza"
+      },
+      "medicines": {
+        "name": "Medicamentos",
+        "description": "Con y sin receta médica",
+        "category": "Salud"
+      },
+      "hygiene": {
+        "name": "Higiene Personal",
+        "description": "Todo para tu cuidado diario",
+        "category": "Cuidado"
+      },
+      "baby": {
+        "name": "Bebé y Mamá",
+        "description": "Productos especializados",
+        "category": "Familia"
+      },
+      "orthopedics": {
+        "name": "Ortopedia",
+        "description": "Dispositivos de apoyo y movilidad",
+        "category": "Bienestar"
+      }
+    },
+    "button": "Ver más"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Estamos aquí para ayudarte en todo lo que necesites",
+    "info": {
+      "address": {
+        "title": "Dirección",
+        "content": "Passeig del Baixador, 78, 08195 Mira-sol, Barcelona"
+      },
+      "phone": {
+        "title": "Teléfono",
+        "content": "+34 123 456 789"
+      },
+      "email": {
+        "title": "Email",
+        "content": "info@farmaciamirasol.com"
+      },
+      "schedule": {
+        "title": "Horario",
+        "content": "Lun-Vie: 9:00-21:00"
+      }
+    },
+    "map": {
+      "title": "Mapa interactivo",
+      "placeholder": "Integra Google Maps aquí"
+    }
+  },
+  "schedule": {
+    "title": "Horario",
+    "weekdays": "Lunes a Viernes",
+    "weekdaysTime": "8:30h a 20:30h",
+    "saturday": "Sábados",
+    "saturdayTime": "9:00h a 14:00h",
+    "sunday": "Domingos",
+    "sundayTime": "Cerrado"
+  },
+  "whatsapp": {
+    "title": "¡Haz tu encargo!",
+    "subtitle": "Haz tu encargo desde el móvil",
+    "description": "Haz clic aquí y envíanos un mensaje",
+    "simple": "¡Así de sencillo!",
+    "button": "Enviar mensaje",
+    "notice": {
+      "title": "Aviso legal sobre el uso de WhatsApp",
+      "content": "Desde la Farmacia Mira-sol te pedimos que NO nos envíes información sensible sobre tu salud ni tampoco documentación privada, como recetas y/u otros documentos sanitarios personales. En todo caso, por nuestra parte, te podemos confirmar que el dispositivo móvil es solo para esta funcionalidad y se encuentra en una zona privada. El dispositivo está configurado con todas las opciones de seguridad disponibles y de forma periódica se eliminan todos los mensajes recibidos y enviados. En ningún momento se almacena ningún documento y/o mensaje."
+    }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados",
+    "address": "Calle Mirasol, 12",
+    "city": "08172 Sant Cugat del Vallès",
+    "phone": "Tel: 93 674 12 34"
+  }
+}

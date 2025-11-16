@@ -1,0 +1,155 @@
+{
+  "header": {
+    "title": "Mirasol Pharmacy",
+    "subtitle": "Sant Cugat del Vallès",
+    "nav": {
+      "services": "Services",
+      "about": "About Us",
+      "products": "Products",
+      "contact": "Contact"
+    }
+  },
+  "hero": {
+    "badge": "Welcome",
+    "welcome": "Welcome to",
+    "pharmacyName": "Mirasol Pharmacy",
+    "tagline": "Your health destination",
+    "cta": "Place your charge",
+    "secondary": "Learn more"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Committed to your health and wellbeing",
+    "items": {
+      "medicines": {
+        "title": "Medicines",
+        "description": "Wide catalog of prescription and over-the-counter medicines"
+      },
+      "health": {
+        "title": "Health",
+        "description": "Personalized advice on health and wellness"
+      },
+      "consultations": {
+        "title": "Consultations",
+        "description": "Professional pharmaceutical consultation service"
+      },
+      "products": {
+        "title": "Products",
+        "description": "Parapharmacy and personal care products"
+      },
+      "emergency": {
+        "title": "Emergency",
+        "description": "24/7 on-call service available"
+      },
+      "care": {
+        "title": "Care",
+        "description": "Personalized attention for the whole family"
+      }
+    }
+  },
+  "about": {
+    "title": "About Mirasol Pharmacy",
+    "description1": "We are a trusted pharmacy with over 25 years of experience caring for our community's health. Our commitment is to offer quality products and personalized service.",
+    "description2": "We have a team of highly qualified professionals who will advise you at all times to ensure your wellbeing and that of your family.",
+    "stats": {
+      "experience": "Years of experience",
+      "clients": "Satisfied clients",
+      "availability": "Availability",
+      "locations": "Locations"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To provide excellent health services, combining professionalism, proximity and commitment to the wellbeing of every person who trusts us."
+    }
+  },
+  "products": {
+    "badge": "Featured Products",
+    "title": "Wide Catalog",
+    "subtitle": "Find everything you need for your health and wellbeing",
+    "items": {
+      "vitamins": {
+        "name": "Vitamins and Supplements",
+        "description": "Strengthen your immune system",
+        "category": "Nutrition"
+      },
+      "skincare": {
+        "name": "Skincare",
+        "description": "Premium dermatological products",
+        "category": "Beauty"
+      },
+      "medicines": {
+        "name": "Medicines",
+        "description": "Prescription and over-the-counter",
+        "category": "Health"
+      },
+      "hygiene": {
+        "name": "Personal Hygiene",
+        "description": "Everything for your daily care",
+        "category": "Care"
+      },
+      "baby": {
+        "name": "Baby & Mom",
+        "description": "Specialized products",
+        "category": "Family"
+      },
+      "orthopedics": {
+        "name": "Orthopedics",
+        "description": "Support and mobility devices",
+        "category": "Wellbeing"
+      }
+    },
+    "button": "See more"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to help you with everything you need",
+    "info": {
+      "address": {
+        "title": "Address",
+        "content": "Passeig del Baixador, 78, 08195 Mira-sol, Barcelona"
+      },
+      "phone": {
+        "title": "Phone",
+        "content": "+34 123 456 789"
+      },
+      "email": {
+        "title": "Email",
+        "content": "info@farmaciamirasol.com"
+      },
+      "schedule": {
+        "title": "Schedule",
+        "content": "Mon-Fri: 9:00-21:00"
+      }
+    },
+    "map": {
+      "title": "Interactive map",
+      "placeholder": "Integrate Google Maps here"
+    }
+  },
+  "schedule": {
+    "title": "Opening Hours",
+    "weekdays": "Monday to Friday",
+    "weekdaysTime": "8:30am to 8:30pm",
+    "saturday": "Saturdays",
+    "saturdayTime": "9:00am to 2:00pm",
+    "sunday": "Sundays",
+    "sundayTime": "Closed"
+  },
+  "whatsapp": {
+    "title": "Place your charge!",
+    "subtitle": "Charge from your mobile",
+    "description": "Click here and send us a message",
+    "simple": "It's that simple!",
+    "button": "Send message",
+    "notice": {
+      "title": "Legal notice about WhatsApp usage",
+      "content": "From Mirasol Pharmacy we ask you NOT to send us sensitive information about your health or private documentation, such as prescriptions and/or other personal medical documents. In any case, we can confirm that the mobile device is only for this functionality and is located in a private area. The device is configured with all available security options and all received and sent messages are periodically deleted. No documents and/or messages are stored at any time."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "address": "Mirasol Street, 12",
+    "city": "08172 Sant Cugat del Vallès",
+    "phone": "Phone: 93 674 12 34"
+  }
+}
