@@ -13,7 +13,7 @@
     "badge": "Benvinguts",
     "welcome": "Benvinguts a",
     "pharmacyName": "Farmàcia Mirasol",
-    "tagline": "El teu lloc de salut",
+    "tagline": "Sempre a prop, siempre cuidant-te",
     "cta": "Fes el teu encarrec",
     "secondary": "Coneix més"
   },
@@ -22,28 +22,28 @@
     "subtitle": "Compromesos amb la teva salut i benestar",
     "items": {
       "medicines": {
-        "title": "Medicaments",
-        "description": "Ampli catàleg de medicaments amb i sense recepta"
+        "title": "Atenció farmacèutica",
+        "description": "Atenció personalitzada per a tota la família"
       },
       "health": {
-        "title": "Salut",
+        "title": "Consell",
         "description": "Assessorament personalitzat en salut i benestar"
       },
       "consultations": {
-        "title": "Consultes",
-        "description": "Servei de consulta farmacèutica professional"
+        "title": "SPD",
+        "description": "Seguiment farmacoterapèutic amb sistemes personalitzats de dosificació"
       },
       "products": {
-        "title": "Productes",
-        "description": "Productes de parafarmàcia i cura personal"
+        "title": "Fórmules magistrals",
+        "description": "Medicament destinat a un pacient individualitzat, preescrit per un professional sanitari"
       },
       "emergency": {
-        "title": "Urgències",
-        "description": "Servei de guàrdia 24/7 disponible"
+        "title": "Veterinària",
+        "description": "Dispensació de productes veterinaris i comunicació directa amb consultes de veterinària"
       },
       "care": {
-        "title": "Atenció",
-        "description": "Atenció personalitzada per a tota la família"
+        "title": "Arracades",
+        "description": "Servei de perforació del lòbul auricular amb material estèril"
       }
     }
   },
@@ -100,9 +100,28 @@
     },
     "button": "Veure més"
   },
+  "brands": {
+    "title": "Treballem amb les millors marques"
+  },
   "contact": {
     "title": "Contacta'ns",
     "subtitle": "Som aquí per ajudar-te en tot el que necessitis",
+    "parking": {
+      "title": "Pàrquing Gratuït",
+      "description": "15 min gratis per a clients",
+      "modal": {
+        "title": "Pàrquing Gratuït",
+        "subtitle": "Per a clients de la farmàcia",
+        "time": "15 minuts",
+        "timeDesc": "Temps suficient per a la teva visita",
+        "location": "Just davant",
+        "locationDesc": "Plaça situada davant de la farmàcia",
+        "free": "Totalment gratis",
+        "freeDesc": "Sense cost addicional",
+        "note": "Important:",
+        "noteDesc": "La plaça de pàrquing està situada just davant de la farmàcia, identificada amb el senyal blau 'P' de Farmàcia. Màxim 15 minuts d'estacionament gratuït."
+      }
+    },
     "info": {
       "address": {
         "title": "Adreça",
@@ -110,15 +129,17 @@
       },
       "phone": {
         "title": "Telèfon",
-        "content": "+34 123 456 789"
+        "content": "+34 634 82 90 57",
+        "content2": "+34 93 674 23 72"
       },
       "email": {
         "title": "Email",
-        "content": "info@farmaciamirasol.com"
+        "content": "mirasolfarmacia@gmail.com"
       },
       "schedule": {
         "title": "Horari",
-        "content": "Dl-Dv: 9:00-21:00"
+        "content": "Dl-Dv: 8:30-20:30",
+        "content2": "Dis: 9:00 - 14:00"
       }
     },
     "map": {
@@ -141,6 +162,20 @@
     "description": "Clica aquí i envia'ns un missatge",
     "simple": "Així de senzill!",
     "button": "Enviar missatge",
+    "features": {
+      "fast": {
+        "title": "Resposta Ràpida",
+        "description": "Atenció immediata via WhatsApp"
+      },
+      "easy": {
+        "title": "Fàcil i Segur",
+        "description": "Comanda des del teu mòbil"
+      },
+      "schedule": {
+        "title": "Horari Ampli",
+        "description": "Disponibles de dilluns a dissabte"
+      }
+    },
     "notice": {
       "title": "Avís legal sobre la utilització de WhatsApp",
       "content": "Des de la Farmàcia Mira-sol et demanem que NO ens enviïs informació sensible sobre la teva salut ni tampoc documentació privada, com receptes i/o altres documents sanitaris personals. En tot cas, per la nostra banda, et podem confirmar que el dispositiu mòbil és només per a aquesta funcionalitat i es troba en una zona privada. El dispositiu es troba configurat amb totes les opcions de seguretat disponibles i de forma periòdica s'eliminen tots els missatges rebuts i enviats. En cap moment s'emmagatzema cap document i/o missatge."
@@ -150,6 +185,9 @@
     "rights": "Tots els drets reservats",
     "address": "Carrer Mirasol, 12",
     "city": "08172 Sant Cugat del Vallès",
-    "phone": "Tel: 93 674 12 34"
+    "phone": "Tel: 634 82 90 57",
+    "contact": "Contacte",
+    "brand": "Farmàcia Mirasol",
+    "tagline": "La teva farmàcia de confiança a Sant Cugat del Vallès"
   }
 }

@@ -9,13 +9,11 @@ export default function AboutSection() {
 
   const stats = [
     { icon: Award, value: '25+', key: 'experience' },
-    { icon: Users, value: '10K+', key: 'clients' },
-    { icon: Clock, value: '24/7', key: 'availability' },
-    { icon: MapPin, value: '3', key: 'locations' },
+    { icon: Users, value: '4,7/5', key: 'clients' }
   ];
 
   return (
-    <section id="nosotros" className="relative py-12 sm:py-16 md:py-20 overflow-hidden">
+    <section id="nosotros" className="relative py-12 sm:py-16 md:py-20 overflow-hidden mb-10">
       {/* Fondo con gradiente transparente en bordes */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-white to-transparent" />
 
@@ -85,7 +83,7 @@ export default function AboutSection() {
         </svg>
       </div>
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 mb-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div
             initial={{ opacity: 0, x: -50 }}
@@ -108,7 +106,7 @@ export default function AboutSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="grid grid-cols-2 gap-6"
+              className="grid grid-cols-2 gap-6 mb-12 md:mb-16"
             >
               {stats.map((stat, index) => (
                 <motion.div
@@ -181,6 +179,9 @@ export default function AboutSection() {
             />
           </motion.div>
         </div>
+
+        {/* Espaciador transparente para suavizar transición */}
+        <div className="h-12 sm:h-16 md:h-20"></div>
       </div>
     </section>
   );

@@ -13,7 +13,7 @@
     "badge": "Welcome",
     "welcome": "Welcome to",
     "pharmacyName": "Mirasol Pharmacy",
-    "tagline": "Your health destination",
+    "tagline": "Always close by, always looking after you",
     "cta": "Place your charge",
     "secondary": "Learn more"
   },
@@ -22,28 +22,28 @@
     "subtitle": "Committed to your health and wellbeing",
     "items": {
       "medicines": {
-        "title": "Medicines",
-        "description": "Wide catalog of prescription and over-the-counter medicines"
+        "title": "Pharmaceutical Care",
+        "description": "Personalized care for the whole family"
       },
       "health": {
-        "title": "Health",
+        "title": "Advice",
         "description": "Personalized advice on health and wellness"
       },
       "consultations": {
-        "title": "Consultations",
-        "description": "Professional pharmaceutical consultation service"
+        "title": "PDS",
+        "description": "Therapeutic drug monitoring with personalized dosing systems"
       },
       "products": {
-        "title": "Products",
-        "description": "Parapharmacy and personal care products"
+        "title": "Compounded Medications",
+        "description": "Medication intended for an individual patient, prescribed by a healthcare professional"
       },
       "emergency": {
-        "title": "Emergency",
-        "description": "24/7 on-call service available"
+        "title": "Veterinary",
+        "description": "Dispensing of veterinary products and direct communication with veterinary clinics"
       },
       "care": {
-        "title": "Care",
-        "description": "Personalized attention for the whole family"
+        "title": "Ear Piercing",
+        "description": "Ear lobe piercing service with sterile equipment"
       }
     }
   },
@@ -100,9 +100,28 @@
     },
     "button": "See more"
   },
+  "brands": {
+    "title": "We work with the best brands"
+  },
   "contact": {
     "title": "Contact Us",
     "subtitle": "We are here to help you with everything you need",
+    "parking": {
+      "title": "Free Parking",
+      "description": "15 min free for customers",
+      "modal": {
+        "title": "Free Parking",
+        "subtitle": "For pharmacy customers",
+        "time": "15 minutes",
+        "timeDesc": "Enough time for your visit",
+        "location": "Right in front",
+        "locationDesc": "Space located in front of the pharmacy",
+        "free": "Completely free",
+        "freeDesc": "No additional cost",
+        "note": "Important:",
+        "noteDesc": "The parking space is located right in front of the pharmacy, identified with the blue 'P' Pharmacy sign. Maximum 15 minutes of free parking."
+      }
+    },
     "info": {
       "address": {
         "title": "Address",
@@ -110,15 +129,17 @@
       },
       "phone": {
         "title": "Phone",
-        "content": "+34 123 456 789"
+        "content": "+34 634 82 90 57",
+        "content2": "+34 93 674 23 72"
       },
       "email": {
         "title": "Email",
-        "content": "info@farmaciamirasol.com"
+        "content": "mirasolfarmacia@gmail.com"
       },
       "schedule": {
         "title": "Schedule",
-        "content": "Mon-Fri: 9:00-21:00"
+        "content": "Mon-Fri: 8:30-20:30",
+        "content2": "Sat: 9:00-14:00"
       }
     },
     "map": {
@@ -141,6 +162,20 @@
     "description": "Click here and send us a message",
     "simple": "It's that simple!",
     "button": "Send message",
+    "features": {
+      "fast": {
+        "title": "Fast Response",
+        "description": "Immediate attention via WhatsApp"
+      },
+      "easy": {
+        "title": "Easy and Secure",
+        "description": "Place your order from your mobile"
+      },
+      "schedule": {
+        "title": "Extended Hours",
+        "description": "Available Monday to Saturday"
+      }
+    },
     "notice": {
       "title": "Legal notice about WhatsApp usage",
       "content": "From Mirasol Pharmacy we ask you NOT to send us sensitive information about your health or private documentation, such as prescriptions and/or other personal medical documents. In any case, we can confirm that the mobile device is only for this functionality and is located in a private area. The device is configured with all available security options and all received and sent messages are periodically deleted. No documents and/or messages are stored at any time."
@@ -150,6 +185,9 @@
     "rights": "All rights reserved",
     "address": "Mirasol Street, 12",
     "city": "08172 Sant Cugat del Vallès",
-    "phone": "Phone: 93 674 12 34"
+    "phone": "Phone: 634 82 90 57",
+    "contact": "Contact",
+    "brand": "Mirasol Pharmacy",
+    "tagline": "Your trusted pharmacy in Sant Cugat del Vallès"
   }
 }

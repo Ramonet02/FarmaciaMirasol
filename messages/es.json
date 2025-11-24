@@ -13,7 +13,7 @@
     "badge": "Bienvenidos",
     "welcome": "Bienvenidos a",
     "pharmacyName": "Farmacia Mirasol",
-    "tagline": "Tu lugar de salud",
+    "tagline": "Siempre cerca, siempre cuidandote.",
     "cta": "Haz tu encargo",
     "secondary": "Conoce más"
   },
@@ -22,44 +22,42 @@
     "subtitle": "Comprometidos con tu salud y bienestar",
     "items": {
       "medicines": {
-        "title": "Medicamentos",
-        "description": "Amplio catálogo de medicamentos con y sin receta"
+        "title": "Atención farmacéutica",
+        "description": "Atención personalizada para toda la familia"
       },
       "health": {
-        "title": "Salud",
+        "title": "Consejo",
         "description": "Asesoramiento personalizado en salud y bienestar"
       },
       "consultations": {
-        "title": "Consultas",
-        "description": "Servicio de consulta farmacéutica profesional"
+        "title": "SPD",
+        "description": "Seguimiento fáramco terapéutico con sistemas personalizados de dosificación"
       },
       "products": {
-        "title": "Productos",
-        "description": "Productos de parafarmacia y cuidado personal"
+        "title": "Fórmulas magistrales",
+        "description": "Medicamento destinado a un paciente individualizado, preescrito por un profesional sanitario"
       },
       "emergency": {
-        "title": "Urgencias",
-        "description": "Servicio de guardia 24/7 disponible"
+        "title": "Veterinaria",
+        "description": "Dispensación de productos veterinarios y comunicación directa con consultas de veterinaria"
       },
       "care": {
-        "title": "Atención",
-        "description": "Atención personalizada para toda la familia"
+        "title": "Pendientes",
+        "description": "Servicio de perforación del lóbulo auricular con material estéril"
       }
     }
   },
   "about": {
-    "title": "Sobre Farmacia Mirasol",
-    "description1": "Somos una farmacia de confianza con más de 25 años de experiencia en el cuidado de la salud de nuestra comunidad. Nuestro compromiso es ofrecer productos de calidad y un servicio personalizado.",
-    "description2": "Contamos con un equipo de profesionales altamente cualificados que te asesorarán en todo momento para garantizar tu bienestar y el de tu familia.",
+    "title": "Sobre nosotros",
+    "description1": "Somos una farmacia que esta cerca de ti con más de 25 años de experiencia en el cuidado de la salud. Contamos con un equipo de profesionales que te asesorarán, te escucha y orientan, para garantizar tu bienestar y el de tu familia.",
+    "description2": "Nuestro compromiso es ofrecer productos de calidad y un servicio personalizado.",
     "stats": {
       "experience": "Años de experiencia",
-      "clients": "Clientes satisfechos",
-      "availability": "Disponibilidad",
-      "locations": "Ubicaciones"
+      "clients": "Puntación Google"
     },
     "mission": {
       "title": "Nuestra Misión",
-      "description": "Proporcionar servicios de salud de excelencia, combinando profesionalidad, cercanía y compromiso con el bienestar de cada persona que confía en nosotros."
+      "description": "Cuidamos de ti desde el principio, combinando profesionalidad, cercanía y compromiso. Sin prisa, nuestra prioridad es tu salud y la de tu família."
     }
   },
   "products": {
@@ -100,9 +98,28 @@
     },
     "button": "Ver más"
   },
+  "brands": {
+    "title": "Trabajamos con las mejores marcas"
+  },
   "contact": {
     "title": "Contáctanos",
     "subtitle": "Estamos aquí para ayudarte en todo lo que necesites",
+    "parking": {
+      "title": "Parking Gratuito",
+      "description": "15 min gratis para clientes",
+      "modal": {
+        "title": "Parking Gratuito",
+        "subtitle": "Para clientes de la farmacia",
+        "time": "15 minutos",
+        "timeDesc": "Tiempo suficiente para tu visita",
+        "location": "Justo enfrente",
+        "locationDesc": "Plaza situada frente a la farmacia",
+        "free": "Totalmente gratis",
+        "freeDesc": "Sin coste adicional",
+        "note": "Importante:",
+        "noteDesc": "La plaza de parking está situada justo enfrente de la farmacia, identificada con la señal azul 'P' de Farmacia. Máximo 15 minutos de estacionamiento gratuito."
+      }
+    },
     "info": {
       "address": {
         "title": "Dirección",
@@ -110,15 +127,17 @@
       },
       "phone": {
         "title": "Teléfono",
-        "content": "+34 123 456 789"
+        "content": "+34 634 82 90 57",
+        "content2": "+34 93 674 23 72"
       },
       "email": {
         "title": "Email",
-        "content": "info@farmaciamirasol.com"
+        "content": "mirasolfarmacia@gmail.com"
       },
       "schedule": {
         "title": "Horario",
-        "content": "Lun-Vie: 9:00-21:00"
+        "content": "Lun-Vie: 8:30-20:30",
+        "content2": "Sab: 9:00-14:00"
       }
     },
     "map": {
@@ -141,6 +160,20 @@
     "description": "Haz clic aquí y envíanos un mensaje",
     "simple": "¡Así de sencillo!",
     "button": "Enviar mensaje",
+    "features": {
+      "fast": {
+        "title": "Respuesta Rápida",
+        "description": "Atención inmediata vía WhatsApp"
+      },
+      "easy": {
+        "title": "Fácil y Seguro",
+        "description": "Haz tu encargo desde tu móvil"
+      },
+      "schedule": {
+        "title": "Horario Amplio",
+        "description": "Disponibles de lunes a sábado"
+      }
+    },
     "notice": {
       "title": "Aviso legal sobre el uso de WhatsApp",
       "content": "Desde la Farmacia Mira-sol te pedimos que NO nos envíes información sensible sobre tu salud ni tampoco documentación privada, como recetas y/u otros documentos sanitarios personales. En todo caso, por nuestra parte, te podemos confirmar que el dispositivo móvil es solo para esta funcionalidad y se encuentra en una zona privada. El dispositivo está configurado con todas las opciones de seguridad disponibles y de forma periódica se eliminan todos los mensajes recibidos y enviados. En ningún momento se almacena ningún documento y/o mensaje."
@@ -148,8 +181,11 @@
   },
   "footer": {
     "rights": "Todos los derechos reservados",
-    "address": "Calle Mirasol, 12",
+    "address": "Passeig del Baixador, 78, 08195 Mira-sol, Barcelona",
     "city": "08172 Sant Cugat del Vallès",
-    "phone": "Tel: 93 674 12 34"
+    "phone": "Tel: 634 82 90 57",
+    "contact": "Contacto",
+    "brand": "Farmacia Mirasol",
+    "tagline": "Tu farmacia de confianza en Sant Cugat del Vallès"
   }
 }

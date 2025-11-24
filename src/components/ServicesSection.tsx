@@ -2,18 +2,18 @@
 
 import { useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
-import { Pill, Heart, Stethoscope, ShoppingBag, Clock, Users } from 'lucide-react';
+import { UserCheck, Lightbulb, PackageCheck, Beaker, Bone, Gem } from 'lucide-react';
 
 export default function ServicesSection() {
   const t = useTranslations('services');
 
   const services = [
-    { icon: Pill, key: 'medicines' },
-    { icon: Heart, key: 'health' },
-    { icon: Stethoscope, key: 'consultations' },
-    { icon: ShoppingBag, key: 'products' },
-    { icon: Clock, key: 'emergency' },
-    { icon: Users, key: 'care' },
+    { icon: UserCheck, key: 'medicines' },
+    { icon: Lightbulb, key: 'health' },
+    { icon: PackageCheck, key: 'consultations' },
+    { icon: Beaker, key: 'products' },
+    { icon: Bone, key: 'emergency' },
+    { icon: Gem, key: 'care' },
   ];
 
   const containerVariants = {

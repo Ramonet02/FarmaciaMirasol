@@ -1,11 +1,22 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { MapPin, Phone } from 'lucide-react';
+import { MapPin, Phone, Instagram, MessageCircle } from 'lucide-react';
 
 export default function Footer() {
   const t = useTranslations('footer');
+  const tSchedule = useTranslations('schedule');
   const currentYear = new Date().getFullYear();
+
+  const handleWhatsAppClick = () => {
+    const whatsappNumber = '34634829057';
+    const url = `https://api.whatsapp.com/send?phone=${whatsappNumber}`;
+    window.open(url, '_blank');
+  };
+
+  const handlePhoneClick = () => {
+    window.location.href = 'tel:+34634829057';
+  };
 
   return (
     <footer className="bg-gray-900 text-white py-12">
@@ -14,7 +25,7 @@ export default function Footer() {
           {/* Contact Info */}
           <div>
             <h3 className="text-xl font-bold mb-4 text-primary-400">
-              Contacte
+              {t('contact')}
             </h3>
             <div className="space-y-3">
               <div className="flex items-start gap-3">
@@ -34,28 +45,60 @@ export default function Footer() {
           {/* Hours Summary */}
           <div>
             <h3 className="text-xl font-bold mb-4 text-primary-400">
-              Horari
+              {tSchedule('title')}
             </h3>
             <div className="space-y-2 text-sm">
-              <p>Dilluns - Divendres: 8:30h - 20:30h</p>
-              <p>Dissabtes: 9:00h - 14:00h</p>
-              <p>Diumenges: Tancat</p>
+              <p>{tSchedule('weekdays')}: {tSchedule('weekdaysTime')}</p>
+              <p>{tSchedule('saturday')}: {tSchedule('saturdayTime')}</p>
+              <p>{tSchedule('sunday')}: {tSchedule('sundayTime')}</p>
             </div>
           </div>
 
           {/* Brand */}
           <div>
             <h3 className="text-2xl font-bold mb-2 text-primary-400">
-              Farmàcia Mirasol
+              {t('brand')}
             </h3>
-            <p className="text-gray-400 text-sm">
-              La teva farmàcia de confiança a Sant Cugat del Vallès
+            <p className="text-gray-400 text-sm mb-4">
+              {t('tagline')}
             </p>
+            
+            {/* Redes sociales */}
+            <div className="flex gap-3">
+              {/* Instagram */}
+              <a
+                href="https://www.instagram.com/mirasolfarmacia/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center w-10 h-10 bg-white rounded-full hover:scale-110 transition-transform duration-300 shadow-lg hover:shadow-xl group"
+                aria-label="Instagram Farmacia Mirasol"
+              >
+                <Instagram className="w-5 h-5 text-purple-600 group-hover:text-pink-600 transition-colors" />
+              </a>
+
+              {/* WhatsApp */}
+              <button
+                onClick={handleWhatsAppClick}
+                className="inline-flex items-center justify-center w-10 h-10 bg-white rounded-full hover:scale-110 transition-transform duration-300 shadow-lg hover:shadow-xl group"
+                aria-label="WhatsApp Farmacia Mirasol"
+              >
+                <MessageCircle className="w-5 h-5 text-green-600 group-hover:text-green-700 transition-colors" />
+              </button>
+
+              {/* Teléfono */}
+              <button
+                onClick={handlePhoneClick}
+                className="inline-flex items-center justify-center w-10 h-10 bg-white rounded-full hover:scale-110 transition-transform duration-300 shadow-lg hover:shadow-xl group"
+                aria-label="Llamar a Farmacia Mirasol"
+              >
+                <Phone className="w-5 h-5 text-blue-600 group-hover:text-blue-700 transition-colors" />
+              </button>
+            </div>
           </div>
         </div>
 
         <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
-          <p>© {currentYear} Farmàcia Mirasol. {t('rights')}</p>
+          <p>© {currentYear} {t('brand')}. {t('rights')}</p>
         </div>
       </div>
     </footer>

@@ -76,24 +76,24 @@ export default function WhatsAppOrder() {
               <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-[#36a9e1] to-[#66ba80] rounded-full mb-4">
                 <Zap className="w-6 h-6 text-white" />
               </div>
-              <h3 className="font-bold text-gray-900 mb-2">Resposta Ràpida</h3>
-              <p className="text-sm text-gray-600">Atenció immediata via WhatsApp</p>
+              <h3 className="font-bold text-gray-900 mb-2">{t('features.fast.title')}</h3>
+              <p className="text-sm text-gray-600">{t('features.fast.description')}</p>
             </div>
 
             <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-green-50 to-white border border-green-100">
               <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-[#66ba80] to-[#95c11f] rounded-full mb-4">
                 <MessageCircle className="w-6 h-6 text-white" />
               </div>
-              <h3 className="font-bold text-gray-900 mb-2">Fàcil i Segur</h3>
-              <p className="text-sm text-gray-600">Comanda des del teu mòbil</p>
+              <h3 className="font-bold text-gray-900 mb-2">{t('features.easy.title')}</h3>
+              <p className="text-sm text-gray-600">{t('features.easy.description')}</p>
             </div>
 
             <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-purple-50 to-white border border-purple-100">
               <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-[#95c11f] to-[#36a9e1] rounded-full mb-4">
                 <Clock className="w-6 h-6 text-white" />
               </div>
-              <h3 className="font-bold text-gray-900 mb-2">Horari Ampli</h3>
-              <p className="text-sm text-gray-600">Disponibles de dilluns a dissabte</p>
+              <h3 className="font-bold text-gray-900 mb-2">{t('features.schedule.title')}</h3>
+              <p className="text-sm text-gray-600">{t('features.schedule.description')}</p>
             </div>
           </motion.div>
 

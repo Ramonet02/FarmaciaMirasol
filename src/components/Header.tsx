@@ -22,10 +22,9 @@ export default function Header() {
   ];
 
   const navItems = [
+    { key: 'contact', label: 'Contacto', href: '#contacto' },
     { key: 'services', label: 'Servicios', href: '#servicios' },
     { key: 'about', label: 'Nosotros', href: '#nosotros' },
-    { key: 'products', label: 'Productos', href: '#productos' },
-    { key: 'contact', label: 'Contacto', href: '#contacto' },
   ];
 
   useEffect(() => {
