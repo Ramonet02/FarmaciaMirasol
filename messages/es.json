@@ -13,7 +13,7 @@
     "badge": "Bienvenidos",
     "welcome": "Bienvenidos a",
     "pharmacyName": "Farmacia Mirasol",
-    "tagline": "Siempre cerca, siempre cuidandote.",
+    "tagline": "Siempre cerca, siempre cuidándote",
     "cta": "Haz tu encargo",
     "secondary": "Conoce más"
   },
@@ -31,7 +31,7 @@
       },
       "consultations": {
         "title": "SPD",
-        "description": "Seguimiento fáramco terapéutico con sistemas personalizados de dosificación"
+        "description": "Seguimiento fármaco terapéutico con sistemas personalizados de dosificación"
       },
       "products": {
         "title": "Fórmulas magistrales",
@@ -49,11 +49,11 @@
   },
   "about": {
     "title": "Sobre nosotros",
-    "description1": "Somos una farmacia que esta cerca de ti con más de 25 años de experiencia en el cuidado de la salud. Contamos con un equipo de profesionales que te asesorarán, te escucha y orientan, para garantizar tu bienestar y el de tu familia.",
+    "description1": "Somos una farmacia que está cerca de ti con más de 25 años de experiencia en el cuidado de la salud. Contamos con un equipo de profesionales que te asesoran, te escuchan y te orientan, para garantizar tu bienestar y el de tu familia.",
     "description2": "Nuestro compromiso es ofrecer productos de calidad y un servicio personalizado.",
     "stats": {
       "experience": "Años de experiencia",
-      "clients": "Puntación Google"
+      "clients": "Puntuación Google"
     },
     "mission": {
       "title": "Nuestra Misión",

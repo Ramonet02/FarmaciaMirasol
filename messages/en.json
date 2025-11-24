@@ -14,7 +14,7 @@
     "welcome": "Welcome to",
     "pharmacyName": "Mirasol Pharmacy",
     "tagline": "Always close by, always looking after you",
-    "cta": "Place your charge",
+    "cta": "Place your order",
     "secondary": "Learn more"
   },
   "services": {
@@ -157,8 +157,8 @@
     "sundayTime": "Closed"
   },
   "whatsapp": {
-    "title": "Place your charge!",
-    "subtitle": "Charge from your mobile",
+    "title": "Place your order!",
+    "subtitle": "Order from your mobile",
     "description": "Click here and send us a message",
     "simple": "It's that simple!",
     "button": "Send message",

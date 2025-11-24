@@ -37,6 +37,10 @@ export default function ContactSection() {
     window.location.href = 'tel:+34634829057';
   };
 
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:mirasolfarmacia@gmail.com';
+  };
+
   return (
     <section id="contacto" className="relative py-12 sm:py-16 md:py-20 overflow-hidden">
       {/* Fondo con gradiente transparente en bordes */}
@@ -86,7 +90,13 @@ export default function ContactSection() {
             transition={{ duration: 0.8 }}
             className="grid grid-cols-1 sm:grid-cols-2 gap-6"
           >
-            {contactInfo.map((info, index) => (
+            {contactInfo.map((info, index) => {
+              const isPhone = info.key === 'phone';
+              const isEmail = info.key === 'email';
+              const isClickable = isPhone || isEmail;
+              const handleClick = isPhone ? handlePhoneClick : isEmail ? handleEmailClick : undefined;
+              
+              return (
               <motion.div
                 key={index}
                 initial={{ opacity: 0, y: 20 }}
@@ -98,7 +108,8 @@ export default function ContactSection() {
                   rotate: 2,
                   transition: { duration: 0.3 }
                 }}
-                className="bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300"
+                onClick={handleClick}
+                className={`bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 ${isClickable ? 'cursor-pointer' : ''}`}
               >
                 <motion.div
                   whileHover={{ rotate: 360 }}
@@ -119,7 +130,8 @@ export default function ContactSection() {
                   </p>
                 ) : null}
               </motion.div>
-            ))}
+              );
+            })}
           </motion.div>
           <motion.div
             initial={{ opacity: 0, x: 50 }}

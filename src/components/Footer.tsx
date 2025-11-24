@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { MapPin, Phone, Instagram, MessageCircle } from 'lucide-react';
+import { MapPin, Phone, Instagram, MessageCircle, Mail } from 'lucide-react';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -16,6 +16,10 @@ export default function Footer() {
 
   const handlePhoneClick = () => {
     window.location.href = 'tel:+34634829057';
+  };
+
+  const handleEmailClick = () => {
+    window.location.href = 'mailto:mirasolfarmacia@gmail.com';
   };
 
   return (
@@ -83,6 +87,15 @@ export default function Footer() {
                 aria-label="WhatsApp Farmacia Mirasol"
               >
                 <MessageCircle className="w-5 h-5 text-green-600 group-hover:text-green-700 transition-colors" />
+              </button>
+
+              {/* Email */}
+              <button
+                onClick={handleEmailClick}
+                className="inline-flex items-center justify-center w-10 h-10 bg-white rounded-full hover:scale-110 transition-transform duration-300 shadow-lg hover:shadow-xl group"
+                aria-label="Email Farmacia Mirasol"
+              >
+                <Mail className="w-5 h-5 text-red-600 group-hover:text-red-700 transition-colors" />
               </button>
 
               {/* Teléfono */}

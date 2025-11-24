@@ -17,27 +17,35 @@ export default function BrandsSlider() {
     { name: 'Prim', logo: '/logos/prim.png' },
     { name: 'Lacer', logo: '/logos/lacer.png' },
     { name: 'Neutrogena', logo: '/logos/neutrogena.png' },
-    { name: 'Dogdys', logo: '/logos/dogdys.jpg'},
-    { name: 'Farline', logo: '/logos/farline.jpg'}
+    { name: 'Farline', logo: '/logos/farline.jpg'},
+    { name: 'Bayer', logo: '/logos/bayer.png'},
+    { name: 'Dentaid', logo: '/logos/dentaid.png'},
+    { name: 'Ferrer', logo: '/logos/ferrer.png'},
+    { name: 'Vitis', logo: '/logos/vitis.png'}
   ];
 
-  // Duplicar el array para efecto infinito
+  // Duplicar el array para efecto infinito sin cortes
   const duplicatedBrands = [...brands, ...brands];
 
+  // Calcular el ancho total dinámicamente
+  // Ancho de cada card (160px en desktop) + gap (64px) = 224px por elemento
+  const cardWidth = 224; // 160px card + 64px gap
+  const totalWidth = brands.length * cardWidth;
+
   return (
-    <section className="relative py-12 sm:py-16 overflow-hidden bg-gradient-to-b from-transparent via-gray-50 to-transparent mb-10">
+    <section className="relative py-12 sm:py-16 pb-16 sm:pb-20 overflow-hidden bg-gradient-to-b from-transparent via-gray-50 to-transparent">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.h3
           initial={{ opacity: 0, y: -20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-2xl sm:text-3xl font-bold font-display text-center text-gray-800 mb-8"
+          className="text-2xl sm:text-3xl font-bold font-display text-center text-gray-800 mb-12"
         >
           {t('title')}
         </motion.h3>
 
-        <div className="relative overflow-hidden">
+        <div className="relative overflow-hidden py-4">
           {/* Gradientes laterales para fade effect */}
           <div className="absolute left-0 top-0 bottom-0 w-32 bg-gradient-to-r from-gray-50 to-transparent z-10" />
           <div className="absolute right-0 top-0 bottom-0 w-32 bg-gradient-to-l from-gray-50 to-transparent z-10" />
@@ -46,13 +54,13 @@ export default function BrandsSlider() {
           <motion.div
             className="flex gap-12 sm:gap-16"
             animate={{
-              x: [0, -1920],
+              x: [0, -totalWidth],
             }}
             transition={{
               x: {
                 repeat: Infinity,
                 repeatType: 'loop',
-                duration: 30,
+                duration: brands.length * 2.5, // 2.5 segundos por marca
                 ease: 'linear',
               },
             }}
