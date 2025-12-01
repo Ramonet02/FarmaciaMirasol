@@ -3,7 +3,7 @@ import { createNavigation } from 'next-intl/navigation';
 
 export const routing = defineRouting({
   locales: ['ca', 'es', 'en'],
-  defaultLocale: 'ca',
+  defaultLocale: 'es',
 });
 
 export const { Link, redirect, usePathname, useRouter } =
