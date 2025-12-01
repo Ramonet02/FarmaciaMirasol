@@ -119,7 +119,7 @@ export default function ProductsSection() {
             <motion.div
               key={index}
               variants={itemVariants}
-              whileHover={{ 
+              whileHover={{
                 y: -10,
                 transition: { duration: 0.3 }
               }}
@@ -129,7 +129,7 @@ export default function ProductsSection() {
                 <motion.div
                   className={`absolute inset-0 bg-gradient-to-br ${product.gradient} opacity-0 group-hover:opacity-10 transition-opacity duration-300`}
                 />
-                
+
                 <div className="flex items-center gap-2 mb-4">
                   <Star className="w-4 h-4 text-[#36a9e1]" />
                   <span className="text-sm font-medium text-gray-600">

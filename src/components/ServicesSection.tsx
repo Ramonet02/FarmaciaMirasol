@@ -140,7 +140,7 @@ export default function ServicesSection() {
                 scale: 1.05,
                 transition: { duration: 0.3 },
               }}
-              className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-2xl transition-shadow duration-300 relative z-10"
+              className="rounded-2xl p-8 hover:shadow-2xl transition-shadow duration-300 relative z-10"
             >
               <motion.div
                 whileHover={{ rotate: 360 }}

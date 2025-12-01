@@ -95,41 +95,41 @@ export default function ContactSection() {
               const isEmail = info.key === 'email';
               const isClickable = isPhone || isEmail;
               const handleClick = isPhone ? handlePhoneClick : isEmail ? handleEmailClick : undefined;
-              
+
               return (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 20 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.6, delay: index * 0.1 }}
-                whileHover={{ 
-                  scale: 1.05,
-                  rotate: 2,
-                  transition: { duration: 0.3 }
-                }}
-                onClick={handleClick}
-                className={`bg-white rounded-2xl p-6 shadow-lg hover:shadow-2xl transition-all duration-300 ${isClickable ? 'cursor-pointer' : ''}`}
-              >
                 <motion.div
-                  whileHover={{ rotate: 360 }}
-                  transition={{ duration: 0.6 }}
-                  className={`w-14 h-14 bg-gradient-to-br ${info.gradient} rounded-xl flex items-center justify-center mb-4`}
+                  key={index}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.6, delay: index * 0.1 }}
+                  whileHover={{
+                    scale: 1.05,
+                    rotate: 2,
+                    transition: { duration: 0.3 }
+                  }}
+                  onClick={handleClick}
+                  className={`rounded-2xl p-6 hover:shadow-2xl transition-all duration-300 ${isClickable ? 'cursor-pointer' : ''}`}
                 >
-                  <info.icon className="w-7 h-7 text-white" />
-                </motion.div>
-                <h3 className="text-lg font-semibold font-display text-gray-900 mb-2">
-                  {t(`info.${info.key}.title`)}
-                </h3>
-                <p className="text-gray-600">
-                  {t(`info.${info.key}.content`)}
-                </p>
-                {info.key === 'phone' || info.key === 'schedule' ? (
-                  <p className="text-gray-600 mt-1">
-                    {t(`info.${info.key}.content2`)}
+                  <motion.div
+                    whileHover={{ rotate: 360 }}
+                    transition={{ duration: 0.6 }}
+                    className={`w-14 h-14 bg-gradient-to-br ${info.gradient} rounded-xl flex items-center justify-center mb-4`}
+                  >
+                    <info.icon className="w-7 h-7 text-white" />
+                  </motion.div>
+                  <h3 className="text-lg font-semibold font-display text-gray-900 mb-2">
+                    {t(`info.${info.key}.title`)}
+                  </h3>
+                  <p className="text-gray-600">
+                    {t(`info.${info.key}.content`)}
                   </p>
-                ) : null}
-              </motion.div>
+                  {info.key === 'phone' || info.key === 'schedule' ? (
+                    <p className="text-gray-600 mt-1">
+                      {t(`info.${info.key}.content2`)}
+                    </p>
+                  ) : null}
+                </motion.div>
               );
             })}
           </motion.div>
@@ -140,7 +140,7 @@ export default function ContactSection() {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="bg-white rounded-2xl p-2 shadow-xl h-full min-h-[400px] overflow-hidden">
+            <div className="rounded-2xl p-2 shadow-xl h-full min-h-[400px] overflow-hidden">
               <div className="relative w-full h-full rounded-xl overflow-hidden">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2987.4557989287564!2d2.0328269!3d41.4763889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a495a1c1234567%3A0xabcdef1234567890!2sPasseig%20del%20Baixador%2C%2078%2C%2008195%20Mira-sol%2C%20Barcelona!5e0!3m2!1ses!2ses!4v1234567890123!5m2!1ses!2ses"
@@ -185,7 +185,7 @@ export default function ContactSection() {
               aria-label="Ver información del parking"
             >
               <Car className="w-6 h-6 text-white" />
-              
+
               {/* Tooltip hover */}
               <motion.div
                 initial={{ opacity: 0, x: 10 }}

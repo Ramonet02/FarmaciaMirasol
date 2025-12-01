@@ -33,7 +33,7 @@ export default function WhatsAppOrder() {
             >
               <MessageCircle className="w-10 h-10 text-white" />
             </motion.div>
-            
+
             <h2 className="text-4xl md:text-6xl font-bold text-gray-900 mb-4">
               {t('title')}
             </h2>
@@ -72,7 +72,7 @@ export default function WhatsAppOrder() {
             transition={{ delay: 0.5, duration: 0.6 }}
             className="grid md:grid-cols-3 gap-6 mb-12"
           >
-            <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-white border border-blue-100">
+            <div className="text-center p-6 rounded-2xl">
               <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-[#36a9e1] to-[#66ba80] rounded-full mb-4">
                 <Zap className="w-6 h-6 text-white" />
               </div>
@@ -80,7 +80,7 @@ export default function WhatsAppOrder() {
               <p className="text-sm text-gray-600">{t('features.fast.description')}</p>
             </div>
 
-            <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-green-50 to-white border border-green-100">
+            <div className="text-center p-6 rounded-2xl">
               <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-[#66ba80] to-[#95c11f] rounded-full mb-4">
                 <MessageCircle className="w-6 h-6 text-white" />
               </div>
@@ -88,7 +88,7 @@ export default function WhatsAppOrder() {
               <p className="text-sm text-gray-600">{t('features.easy.description')}</p>
             </div>
 
-            <div className="text-center p-6 rounded-2xl bg-gradient-to-br from-purple-50 to-white border border-purple-100">
+            <div className="text-center p-6 rounded-2xl">
               <div className="inline-flex items-center justify-center w-12 h-12 bg-gradient-to-br from-[#95c11f] to-[#36a9e1] rounded-full mb-4">
                 <Clock className="w-6 h-6 text-white" />
               </div>

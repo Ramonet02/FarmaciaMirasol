@@ -82,7 +82,7 @@ export default function AboutSection() {
           />
         </svg>
       </div>
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 mb-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <motion.div
@@ -112,7 +112,7 @@ export default function AboutSection() {
                 <motion.div
                   key={index}
                   whileHover={{ scale: 1.05 }}
-                  className="bg-gradient-to-br from-gray-50 to-white p-6 rounded-xl border border-gray-200"
+                  className="p-6 rounded-xl"
                 >
                   <stat.icon className="w-8 h-8 text-[#36a9e1] mb-3" />
                   <div className="text-3xl font-bold text-gray-900 mb-1">

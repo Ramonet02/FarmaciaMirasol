@@ -6,7 +6,7 @@ import Image from 'next/image';
 
 export default function BrandsSlider() {
   const t = useTranslations('brands');
-  
+
   const brands = [
     { name: 'Uriach', logo: '/logos/uriach.png' },
     { name: 'Aquilea', logo: '/logos/aquilea.png' },
@@ -17,11 +17,11 @@ export default function BrandsSlider() {
     { name: 'Prim', logo: '/logos/prim.png' },
     { name: 'Lacer', logo: '/logos/lacer.png' },
     { name: 'Neutrogena', logo: '/logos/neutrogena.png' },
-    { name: 'Farline', logo: '/logos/farline.jpg'},
-    { name: 'Bayer', logo: '/logos/bayer.png'},
-    { name: 'Dentaid', logo: '/logos/dentaid.png'},
-    { name: 'Ferrer', logo: '/logos/ferrer.png'},
-    { name: 'Vitis', logo: '/logos/vitis.png'}
+    { name: 'Farline', logo: '/logos/farline.jpg' },
+    { name: 'Bayer', logo: '/logos/bayer.png' },
+    { name: 'Dentaid', logo: '/logos/dentaid.png' },
+    { name: 'Ferrer', logo: '/logos/ferrer.png' },
+    { name: 'Vitis', logo: '/logos/vitis.png' }
   ];
 
   // Duplicar el array para efecto infinito sin cortes
@@ -68,7 +68,7 @@ export default function BrandsSlider() {
             {duplicatedBrands.map((brand, index) => (
               <div
                 key={`${brand.name}-${index}`}
-                className="flex-shrink-0 w-32 h-20 sm:w-40 sm:h-24 flex items-center justify-center bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-4"
+                className="flex-shrink-0 w-32 h-20 sm:w-40 sm:h-24 flex items-center justify-center rounded-lg hover:shadow-xl transition-shadow duration-300 p-4"
               >
                 <div className="relative w-full h-full flex items-center justify-center">
                   <Image
